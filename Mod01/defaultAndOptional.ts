@@ -3,4 +3,4 @@ function sayHi(greeting: string, name: string = "John", character: string = "!")
 }
 
 sayHi("Hello", "Joey");
-sayHi("Hi");
+sayHi("Hi", undefined, ".");
